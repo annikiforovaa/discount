@@ -1,11 +1,12 @@
 #include <iostream>
 int main()
 {
+    //Declaring variables
     int sum;
     double cost;
     std:: cout << "Enter the purchase amount " << std::endl;
     std::cin >> sum;
-
+    //Verification according to the condition
     if (sum > 1000)
     {
         cost = sum - (sum * 0.10);
